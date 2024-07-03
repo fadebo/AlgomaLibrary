@@ -49,6 +49,7 @@
 		723037162C336E2A004BC6A5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037152C336E2A004BC6A5 /* LoginController.swift */; };
 		723037182C336E47004BC6A5 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037172C336E47004BC6A5 /* RegisterController.swift */; };
 		7230371A2C336E5C004BC6A5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037192C336E5C004BC6A5 /* HomeController.swift */; };
+		7230374A2C35EAF8004BC6A5 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037492C35EAF8004BC6A5 /* AuthHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		723037152C336E2A004BC6A5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		723037172C336E47004BC6A5 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		723037192C336E5C004BC6A5 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		723037492C35EAF8004BC6A5 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +167,8 @@
 		7230369C2C334F2D004BC6A5 /* AlgomaLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				723037482C35EADE004BC6A5 /* Views */,
 				7230370D2C3361EA004BC6A5 /* AuthService.swift */,
-				7230371B2C336E6F004BC6A5 /* Views */,
 				723037122C336D93004BC6A5 /* core */,
 				7230370F2C3363A5004BC6A5 /* Models */,
 				723036D02C335250004BC6A5 /* GoogleService-Info.plist */,
@@ -215,9 +217,10 @@
 			path = core;
 			sourceTree = "<group>";
 		};
-		7230371B2C336E6F004BC6A5 /* Views */ = {
+		723037482C35EADE004BC6A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				723037492C35EAF8004BC6A5 /* AuthHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				7230369E2C334F2D004BC6A5 /* AppDelegate.swift in Sources */,
 				723036A02C334F2D004BC6A5 /* SceneDelegate.swift in Sources */,
 				723037182C336E47004BC6A5 /* RegisterController.swift in Sources */,
+				7230374A2C35EAF8004BC6A5 /* AuthHeaderView.swift in Sources */,
 				7230371A2C336E5C004BC6A5 /* HomeController.swift in Sources */,
 				723037112C3363D5004BC6A5 /* RegisterUserRequest.swift in Sources */,
 				7230370E2C3361EA004BC6A5 /* AuthService.swift in Sources */,
