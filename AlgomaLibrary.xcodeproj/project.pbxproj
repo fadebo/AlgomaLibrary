@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		7230369E2C334F2D004BC6A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230369D2C334F2D004BC6A5 /* AppDelegate.swift */; };
 		723036A02C334F2D004BC6A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230369F2C334F2D004BC6A5 /* SceneDelegate.swift */; };
-		723036A22C334F2D004BC6A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723036A12C334F2D004BC6A5 /* ViewController.swift */; };
-		723036A52C334F2D004BC6A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 723036A42C334F2D004BC6A5 /* Base */; };
 		723036A72C334F2E004BC6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723036A62C334F2E004BC6A5 /* Assets.xcassets */; };
 		723036AA2C334F2E004BC6A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 723036A92C334F2E004BC6A5 /* Base */; };
 		723036B52C334F2E004BC6A5 /* AlgomaLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723036B42C334F2E004BC6A5 /* AlgomaLibraryTests.swift */; };
@@ -47,6 +45,10 @@
 		7230370C2C3360D5004BC6A5 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 7230370B2C3360D5004BC6A5 /* FirebaseVertexAI-Preview */; };
 		7230370E2C3361EA004BC6A5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230370D2C3361EA004BC6A5 /* AuthService.swift */; };
 		723037112C3363D5004BC6A5 /* RegisterUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037102C3363D5004BC6A5 /* RegisterUserRequest.swift */; };
+		723037142C336E0E004BC6A5 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037132C336E0E004BC6A5 /* ForgotPasswordController.swift */; };
+		723037162C336E2A004BC6A5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037152C336E2A004BC6A5 /* LoginController.swift */; };
+		723037182C336E47004BC6A5 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037172C336E47004BC6A5 /* RegisterController.swift */; };
+		7230371A2C336E5C004BC6A5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723037192C336E5C004BC6A5 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +72,6 @@
 		7230369A2C334F2D004BC6A5 /* AlgomaLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgomaLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7230369D2C334F2D004BC6A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7230369F2C334F2D004BC6A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		723036A12C334F2D004BC6A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		723036A42C334F2D004BC6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		723036A62C334F2E004BC6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		723036A92C334F2E004BC6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		723036AB2C334F2E004BC6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +83,10 @@
 		723036D02C335250004BC6A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7230370D2C3361EA004BC6A5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		723037102C3363D5004BC6A5 /* RegisterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserRequest.swift; sourceTree = "<group>"; };
+		723037132C336E0E004BC6A5 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		723037152C336E2A004BC6A5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		723037172C336E47004BC6A5 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		723037192C336E5C004BC6A5 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,16 +165,16 @@
 		7230369C2C334F2D004BC6A5 /* AlgomaLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				7230370F2C3363A5004BC6A5 /* Models */,
-				7230369F2C334F2D004BC6A5 /* SceneDelegate.swift */,
-				7230369D2C334F2D004BC6A5 /* AppDelegate.swift */,
-				723036A82C334F2E004BC6A5 /* LaunchScreen.storyboard */,
-				723036A62C334F2E004BC6A5 /* Assets.xcassets */,
-				723036D02C335250004BC6A5 /* GoogleService-Info.plist */,
-				723036A12C334F2D004BC6A5 /* ViewController.swift */,
-				723036A32C334F2D004BC6A5 /* Main.storyboard */,
-				723036AB2C334F2E004BC6A5 /* Info.plist */,
 				7230370D2C3361EA004BC6A5 /* AuthService.swift */,
+				7230371B2C336E6F004BC6A5 /* Views */,
+				723037122C336D93004BC6A5 /* core */,
+				7230370F2C3363A5004BC6A5 /* Models */,
+				723036D02C335250004BC6A5 /* GoogleService-Info.plist */,
+				723036AB2C334F2E004BC6A5 /* Info.plist */,
+				723037132C336E0E004BC6A5 /* ForgotPasswordController.swift */,
+				723037152C336E2A004BC6A5 /* LoginController.swift */,
+				723037172C336E47004BC6A5 /* RegisterController.swift */,
+				723037192C336E5C004BC6A5 /* HomeController.swift */,
 			);
 			path = AlgomaLibrary;
 			sourceTree = "<group>";
@@ -198,6 +202,24 @@
 				723037102C3363D5004BC6A5 /* RegisterUserRequest.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		723037122C336D93004BC6A5 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				7230369F2C334F2D004BC6A5 /* SceneDelegate.swift */,
+				7230369D2C334F2D004BC6A5 /* AppDelegate.swift */,
+				723036A82C334F2E004BC6A5 /* LaunchScreen.storyboard */,
+				723036A62C334F2E004BC6A5 /* Assets.xcassets */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		7230371B2C336E6F004BC6A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +362,6 @@
 				723036A72C334F2E004BC6A5 /* Assets.xcassets in Resources */,
 				723036D12C335250004BC6A5 /* GoogleService-Info.plist in Resources */,
 				723036AA2C334F2E004BC6A5 /* Base in Resources */,
-				723036A52C334F2D004BC6A5 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723036A22C334F2D004BC6A5 /* ViewController.swift in Sources */,
+				723037142C336E0E004BC6A5 /* ForgotPasswordController.swift in Sources */,
 				7230369E2C334F2D004BC6A5 /* AppDelegate.swift in Sources */,
 				723036A02C334F2D004BC6A5 /* SceneDelegate.swift in Sources */,
+				723037182C336E47004BC6A5 /* RegisterController.swift in Sources */,
+				7230371A2C336E5C004BC6A5 /* HomeController.swift in Sources */,
 				723037112C3363D5004BC6A5 /* RegisterUserRequest.swift in Sources */,
 				7230370E2C3361EA004BC6A5 /* AuthService.swift in Sources */,
+				723037162C336E2A004BC6A5 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,14 +430,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		723036A32C334F2D004BC6A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				723036A42C334F2D004BC6A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		723036A82C334F2E004BC6A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -556,7 +572,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Algoma Library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,7 +599,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Algoma Library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
